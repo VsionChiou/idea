@@ -10,14 +10,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/global.css" />
 <link rel="stylesheet" type="text/css" href="css/mypassword.css" />
-<title>微博 - 账号管理</title>
+<title>idea - 账号管理</title>
    
 </head>
 <body>
  
 <table id="header" align="center" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="20%" align="center"><img src="images/logo.png" width="178" height="62" /></td>
+    <td width="20%" align="center"><span style="width: 178px;height: 62px;font-size: 50px;">idea</span></td>
     <td width="55%" align="left">&nbsp;</td>
     <td width="55%" align="right"></td>
     <td width="25%" align="right">&nbsp;</td>
@@ -30,8 +30,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <table border="0" align="center" cellpadding="0" cellspacing="0" id="container" style="color:#9393FF">
   <tr>
     <td width="670" valign="top">
-      <h2 align="center" style="color: ">CodecoreMicroblog</h2><br /><br /><br /><br /><br />
-    <center>感谢您使用本微博系统，CodecoreMicroblog由Codecore团队开发，谢谢您的支持！！！ </center>
+      <h2 align="center" style="color: ">idea</h2><br /><br /><br /><br /><br />
+    <center>感谢您使用想法系统，idea由个人开发，谢谢支持！！！ </center>
     </td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <a href="http://weibo.com/login.php?url=http%3A%2F%2Fweibo.com%2Fpub%2Fverified">微博认证及合作</a>&nbsp;&nbsp;
      <a href="http://open.weibo.com/">开放平台</a>&nbsp;&nbsp; <a href="http://career.sina.com.cn/welcome.html">微博招聘</a>&nbsp;&nbsp;
       <a href="http://news.sina.com.cn/guide/">微博导航</a></td>        
-    <td width="447" align="right">Copyright: 2011-2015<a href="http://hr.t.sina.com.cn/"> 微博系统 版权所有</a></td>
+    <td width="447" align="right">Copyright: 2011-2019<a href="http://hr.t.sina.com.cn/"> 微博系统 版权所有</a></td>
   </tr>
   <tr>
     <td align="left">客服电话：400 123 12345（按当地市话标准收费）</td>

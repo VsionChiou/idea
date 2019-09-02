@@ -60,10 +60,10 @@ public class LoginServlet extends HttpServlet {
     	    int pageSize = 3;
     	    int totalPosts = attentionDao.allBlogs(userInfo.getU_id());
     	    int totalPages = (int)totalPosts/pageSize + ((totalPosts%pageSize)>0?1:0);
-    	    session.setAttribute("pageSize", pageSize);  
-    	    session.setAttribute("totalPosts", totalPosts);  
-    	    session.setAttribute("pageNumber", pageNumber);  
-    	    session.setAttribute("totalPages", totalPages);  
+    	    session.setAttribute("pageSize", pageSize);
+    	    session.setAttribute("totalPosts", totalPosts);
+    	    session.setAttribute("pageNumber", pageNumber);
+    	    session.setAttribute("totalPages", totalPages);
     	 	listAll=attentionDao.getBlog(userInfo.getU_id(), pageSize, pageNumber);
     	 	
     	 	session.setAttribute("listAll", listAll);

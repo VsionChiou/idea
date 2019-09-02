@@ -1,17 +1,14 @@
 /* CSS Document */
 
-/*Ò³ÃæÑùÊ½*/
+/*Ò³ï¿½ï¿½ï¿½ï¿½Ê½*/
 body{	
-	background-image:url(../images/index_bg.jpg);	
+	background-image:url(../images/index_bg.jpg);
 }
 
-/*Header ÑùÊ½*/
+/*Header ï¿½ï¿½Ê½*/
 #header{
 	width:1001px;
 	height:80px;
-	background-image:url(../images/logo.png);
-	background-repeat:no-repeat;
-	background-position:10px center;
 }
 #daohang{
 	width:160px;
@@ -89,7 +86,7 @@ body{
 	color:#666;
 	font-weight:bold;
 	font-size:15px;
-	font-family:"Î¢ÈíÑÅºÚ";
+	font-family:"Î¢ï¿½ï¿½ï¿½Åºï¿½";
 }
 
 .loginbtn{

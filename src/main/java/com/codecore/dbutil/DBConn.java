@@ -20,7 +20,7 @@ public class DBConn {
 	private void getConntion(){
 		try {
 			Class.forName(CLASS_NAME);
-			String url = DATABASE_URL+"://"+SERVER_IP+":"+SERVER_PORT+"/"+DATABASE_SID+"?serverTimezone=UTC&useSSL=false";
+			String url = DATABASE_URL+"://"+SERVER_IP+":"+SERVER_PORT+"/"+DATABASE_SID+"?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true";
 			conn = DriverManager.getConnection(url,USERNAME,PASSWORD);
 //			System.out.println("....");
 		} catch (ClassNotFoundException e) {
@@ -75,10 +75,12 @@ public class DBConn {
 		getConntion();
 		try {
 			pstmt = conn.prepareStatement(strSQL);
-			for(int i=0; i< params.length ;i++){
-				pstmt.setObject(i+1, params[i]);
-			}		
-			rs = pstmt.executeQuery();
+			if(pstmt!=null) {
+                for (int i = 0; i < params.length; i++) {
+                    pstmt.setObject(i + 1, params[i]);
+                }
+                rs = pstmt.executeQuery();
+            }
 			return rs;
 		} catch (SQLException e) {
 			e.printStackTrace();

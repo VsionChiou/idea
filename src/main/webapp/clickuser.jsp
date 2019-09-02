@@ -28,7 +28,7 @@ function checkfollowing(){
 <!-- header开始-->
 <table id="header" align="center" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="20%" align="center"><img src="images/logo.png" width="178" height="62" /></td>
+    <td width="20%" align="center"><span style="width: 178px;height: 62px;font-size: 50px;">idea</span></td>
     <td width="55%" align="right">
       <table border="0" align="right" cellpadding="0" cellspacing="0" id="daohang">
         <tr>

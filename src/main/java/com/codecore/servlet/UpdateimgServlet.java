@@ -38,6 +38,7 @@ public class UpdateimgServlet extends HttpServlet {
 					FileItem item = iterator.next();
 					if (item.isFormField()) {
 //						do something
+//						System.out.println("do something");
 					} else {
 						String filename = item.getName();
 						if (filename != null) {

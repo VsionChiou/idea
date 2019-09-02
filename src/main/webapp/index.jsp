@@ -12,14 +12,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/global.css" />
 <link rel="stylesheet" type="text/css" href="css/index.css" />
-<title>CodeCore MicroBlog</title>    
+<title>idea</title>
 <script type="text/javascript" src="script/global.js"></script>
 <script type="text/javascript" src="script/index.js"></script>
  <script type="text/javascript">
    
 	function init() {
 	   //LoginServlet
-	   var s=document.forms['faceFrm'];  		  
+	   var s=document.forms['faceFrm'];
 	   s.submit();	 
 	   
 	   //alert(s.id);
@@ -30,11 +30,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!--header 开始-->
 <table id="header" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="right"><table border="0" align="right" cellpadding="0" cellspacing="0" id="daohang">
-      <tr>
-        <td align="center"><a href="<%=request.getContextPath()%>/ShowInterestBlogServlet">随便看看</a>&nbsp; |&nbsp; <a href="about.jsp">关于微博</a></td>
-        </tr>
-    </table></td>
+      <td width="20%" align="center"><span style="width: 178px;height: 62px;font-size: 50px;">idea</span></td>
+    <td align="right">
+        <table border="0" align="right" cellpadding="0" cellspacing="0" id="daohang">
+            <tr>
+                <td align="center"><a href="<%=request.getContextPath()%>/ShowInterestBlogServlet">随便看看</a>&nbsp; |&nbsp; <a href="about.jsp">关于微博</a></td>
+            </tr>
+        </table>
+    </td>
   </tr>
 </table>
 <!--header 结束-->
@@ -184,7 +187,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <a href="http://weibo.com/login.php?url=http%3A%2F%2Fweibo.com%2Fpub%2Fverified">微博认证及合作</a>&nbsp;&nbsp;
      <a href="http://open.weibo.com/">开放平台</a>&nbsp;&nbsp; <a href="http://hr.t.sina.com.cn/">微博招聘</a>&nbsp;&nbsp;
       <a href="http://news.sina.com.cn/guide/">微博导航</a></td>        
-    <td width="447" align="right">Copyright: 2011-2015<a href="http://corp.sina.com.cn/chn/copyright.html"> 微博系统 版权所有</a></td>
+    <td width="447" align="right">Copyright: 2011-2020<a href="http://corp.sina.com.cn/chn/copyright.html"> 微博系统 版权所有</a></td>
  <td width="166" align="right">语言：
       <select name="select" id="select">
         <option>中文(简体)</option>

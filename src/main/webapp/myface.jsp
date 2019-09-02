@@ -17,7 +17,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!-- header开始-->
 <table id="header" align="center" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="20%" align="center"><img src="images/logo.png" width="178" height="62" /></td>
+    <td width="20%" align="center"><span style="width: 178px;height: 62px;font-size: 50px;">idea</span></td>
     <td width="55%" align="left">账号设置</td>
     <td width="55%" align="right"><a href="home.jsp"><h3 style="color: #F0F0F0">修改完成！</h3></a></td>
     <td width="25%" align="right">&nbsp;</td>
@@ -37,7 +37,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           <td class="title">个人资料</td>
           </tr>
         <tr>
-          <td class="menu"><a href="userinfo.jsp">基本资料</a> | <a href="mypassword.jsp">修改密码</a> | 修改头像</td>
+          <td class="menu"><a href="userinfo.jsp">基本资料</a> | <a href="mypassword.jsp">修改密码</a> | 修改头像 </td>
         </tr>
         <tr>
           <td align="center"><table width="90%" border="0" cellpadding="5" cellspacing="0" id="userinfo_content">

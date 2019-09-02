@@ -1,7 +1,6 @@
 package com.codecore.servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 
 import javax.servlet.ServletException;
@@ -15,14 +14,10 @@ import com.codecore.dao.AttentionDao;
 import com.codecore.dao.RegisterDao;
 import com.codecore.entity.Blog;
 import com.codecore.entity.UserInfo;
+
 @WebServlet(name = "RegisterServlet",urlPatterns = {"/RegisterServlet"})
 public class RegisterServlet extends HttpServlet {
-
-	/**
-	 * ע����֤
-	 */
-	private static final long serialVersionUID = -478052340582521550L;
-
+	private String[] strArr=null;
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		this.doPost(request, response);
@@ -38,6 +33,7 @@ public class RegisterServlet extends HttpServlet {
 		String sex=request.getParameter("sex");
 		String addr=request.getParameter("city");
 		String jsEmail=request.getParameter("jsemail");
+
 		RegisterDao registerDao=new RegisterDao();
 		UserInfo userInfo=new UserInfo();
 		userInfo.setU_mail(mail);
@@ -48,17 +44,18 @@ public class RegisterServlet extends HttpServlet {
 		userInfo.setU_account(mail);
 		userInfo.setU_img("/CodecoreMicroblog/face/NoName.jpg");
 		boolean flag=registerDao.addUser(userInfo);
+
 		if (flag) {
 			HttpSession session=request.getSession();
 			userInfo=registerDao.getInfoByAccount(mail);
 			AttentionDao attentionDao=new AttentionDao();
 			ArrayList<Blog> listAll=new ArrayList<Blog>();
     	 	String pageNumberStr = request.getParameter("pageNumber");
-    	    int pageNumber = 1;  
-    	    if(pageNumberStr!=null && !pageNumberStr.isEmpty())  
+    	    int pageNumber = 1;
+    	    if(pageNumberStr!=null && !pageNumberStr.isEmpty())
     	    {  
-    	        pageNumber = Integer.parseInt(pageNumberStr);  
-    	    }  
+    	        pageNumber = Integer.parseInt(pageNumberStr);
+    	    }
     	    int pageSize = 3;
     	    int totalPosts = attentionDao.allBlogs(userInfo.getU_id());
     	    //int totalPosts = attentionDao.allBlogs(65);

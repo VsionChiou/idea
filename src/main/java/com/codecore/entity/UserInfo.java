@@ -20,7 +20,7 @@ public class UserInfo {
 	private String u_sign;
 	private String u_url;
 	private String u_question;
-	
+
 	public String getU_question() {
 		return u_question;
 	}

@@ -106,6 +106,13 @@
       <artifactId>gson</artifactId>
       <version>2.8.5</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.efsavage.jquery/jquery-maven -->
+    <dependency>
+      <groupId>com.efsavage.jquery</groupId>
+      <artifactId>jquery-maven</artifactId>
+      <version>1.7.2</version>
+    </dependency>
+
 
 
 
