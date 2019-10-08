@@ -69,7 +69,7 @@
         }
         function prom() {
 
-            var name = prompt("请输入您的名字", "");
+            var name = prompt("请输入你要推送的邮箱地址：", "");
             return name;
         }
     </script>

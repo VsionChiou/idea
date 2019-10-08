@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0948ed82-3b58-4417-a6d8-34ebe84619fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAppInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/baiduRequest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/baiduRequest.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +212,7 @@
       <workItem from="1570327152258" duration="3439000" />
       <workItem from="1570330812794" duration="1399000" />
       <workItem from="1570523626797" duration="90000" />
-      <workItem from="1570523861300" duration="641000" />
+      <workItem from="1570523861300" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="0.1.3|上线百度网盘推送服务">
       <created>1570327734567</created>
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570330440341</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.0.2|百度网盘推送功能上线">
+      <created>1570547860464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570547860464</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
