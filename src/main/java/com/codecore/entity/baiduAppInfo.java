@@ -4,7 +4,7 @@ public class baiduAppInfo {
     private static String API_Key = "12fvzXPHDpMqRfYnamEIfY89";
     private static String Secret_Key = "6RWXc6IsRSTd0SKLqwXI9OqAQhZqBd7q";
     private static int App_id = 17200805;
-    private static String uri = "http://localhost:8080/baiduServlet";
+    private static String uri = "http://www.haoqingna521.top/baiduServlet";
 
     public static String getUri() {
         return uri;
