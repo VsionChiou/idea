@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0948ed82-3b58-4417-a6d8-34ebe84619fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/FileList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/FileList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/SendMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/access_token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/access_token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAppInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduCapacity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduofURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduofURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduDownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduDownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/tools/httpsGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/tools/httpsGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/tools/repStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/tools/repStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/tools/strFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/tools/strFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ajaxtest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ajaxtest.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/baiduRequest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/baiduRequest.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/ajaxtest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/ajaxtest.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/jsp/baiduRequest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/jsp/baiduRequest.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +57,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -73,35 +99,29 @@
   </component>
   <component name="ProjectId" id="1RMnnJcMmKL9Cawx2nDowIlLJmS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Object\Java\idea\src\main\webapp" />
       <recent name="D:\Object\Java\idea\src\main\java" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.idea">
     <configuration name="SumData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -198,6 +218,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Vsion\AppData\Roaming\Subversion</configuration>
   </component>
@@ -212,7 +244,10 @@
       <workItem from="1570327152258" duration="3439000" />
       <workItem from="1570330812794" duration="1399000" />
       <workItem from="1570523626797" duration="90000" />
-      <workItem from="1570523861300" duration="1048000" />
+      <workItem from="1570523861300" duration="2712000" />
+      <workItem from="1572180402761" duration="57000" />
+      <workItem from="1574489751655" duration="1348000" />
+      <workItem from="1576493774822" duration="946000" />
     </task>
     <task id="LOCAL-00001" summary="0.1.3|上线百度网盘推送服务">
       <created>1570327734567</created>
@@ -256,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570547860464</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.0.3|体验优化">
+      <created>1570548292875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570548292875</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +323,25 @@
     </ignored-roots>
     <MESSAGE value="0.1.3|上线百度网盘推送服务" />
     <MESSAGE value="1.0.2|百度网盘推送功能上线" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.2|百度网盘推送功能上线" />
+    <MESSAGE value="1.0.3|体验优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.3|体验优化" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="766" y="277" key="FileChooserDialogImpl" timestamp="1576494920630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576494920630" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1576495007663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576495007663" />
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576493774832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576493774832" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576495037140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576495037140" />
   </component>
 </project>
