@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0948ed82-3b58-4417-a6d8-34ebe84619fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/FileList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/FileList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/SendMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/access_token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/access_token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduAppInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduCapacity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduofURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/entity/baiduofURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduDownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduDownloadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/servlet/baiduServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/tools/httpsGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/tools/httpsGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/tools/repStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/tools/repStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecore/tools/strFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecore/tools/strFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ajaxtest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ajaxtest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/baiduRequest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/baiduRequest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/idea/ajaxtest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/ajaxtest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/idea/jsp/baiduRequest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/jsp/baiduRequest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +51,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Intstall_software/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\Intstall_software\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="D:/Intstall_software/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Install_Software\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -109,13 +84,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -247,7 +222,8 @@
       <workItem from="1570523861300" duration="2712000" />
       <workItem from="1572180402761" duration="57000" />
       <workItem from="1574489751655" duration="1348000" />
-      <workItem from="1576493774822" duration="1605000" />
+      <workItem from="1576493774822" duration="1837000" />
+      <workItem from="1576651653581" duration="416000" />
     </task>
     <task id="LOCAL-00001" summary="0.1.3|上线百度网盘推送服务">
       <created>1570327734567</created>
@@ -298,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570548292875</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.0.3|体验优化">
+      <created>1576496156223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576496156223</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,22 +310,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.0.3|体验优化" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="102" key="CommitChangelistDialog2" timestamp="1576496117072">
+    <state x="560" y="102" key="CommitChangelistDialog2" timestamp="1576496155263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576496117072" />
-    <state x="766" y="277" key="FileChooserDialogImpl" timestamp="1576494920630">
+    <state x="560" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576496155263" />
+    <state x="766" y="277" key="FileChooserDialogImpl" timestamp="1576652069164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="766" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576494920630" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1576495007663">
+    <state x="766" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576652069164" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1576652073554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576495007663" />
-    <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576493774832">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576652073554" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1576496199363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576493774832" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576496199363" />
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576651653740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576651653740" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576496002539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
