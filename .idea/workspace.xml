@@ -1,9 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0948ed82-3b58-4417-a6d8-34ebe84619fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/idea.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/AttentionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/AttentionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/BlogPublish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/BlogPublish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/CancelFollowingDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/CancelFollowingDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/CollectDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/CollectDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/CommentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/CommentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/CountUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/CountUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/FansDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/FansDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/FollowingDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/FollowingDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/FriendsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/FriendsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/InterestBlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/InterestBlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/InterestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/InterestDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/MyBlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/MyBlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/RegisterDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/RegisterDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/SearchDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/SearchDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/SumData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/SumData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/UploadFaceDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/UploadFaceDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dbutil/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dbutil/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/dbutil/DBConn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/dbutil/DBConn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/Collect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/Collect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/File.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/FileList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/FileList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/Friends.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/Friends.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/SendMail$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/SendMail$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/SendMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/SendMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/access_token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/access_token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/baiduAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/baiduAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/baiduAppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/baiduAppInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/baiduCapacity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/baiduCapacity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/entity/baiduofURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/entity/baiduofURL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AddAttentionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AddAttentionServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AddCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AddCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AddCommentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AddCommentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AddFollowingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AddFollowingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AttentionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/AttentionServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/BlogPublishServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/BlogPublishServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/CancelCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/CancelCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/CancelFollowingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/CancelFollowingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/CheckMailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/CheckMailServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/DeleteBlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/DeleteBlogServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/DispatchBlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/DispatchBlogServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/FindpasswordServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/FindpasswordServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/PageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/PageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/RemoveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/RemoveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/SearchCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/SearchCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/SearchFriendServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/SearchFriendServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/SearchHomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/SearchHomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/SearchProfileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/SearchProfileServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowAttentionBlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowAttentionBlogServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowAttentionInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowAttentionInfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowFansServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowFansServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowFollowingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowFollowingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowFriendsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowFriendsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowInterestBlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/ShowInterestBlogServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/UpdateimgServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/UpdateimgServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/UpdatepasswordServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/UpdatepasswordServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/UpdateuserInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/UpdateuserInfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/baiduDownloadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/baiduDownloadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/baiduListServlet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/baiduListServlet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/baiduListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/baiduListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/servlet/baiduServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/servlet/baiduServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/tools/CookieFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/tools/CookieFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/tools/DataTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/tools/DataTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/tools/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/tools/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/tools/FileUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/tools/FileUpload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/tools/InitIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/tools/InitIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/tools/httpsGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/tools/httpsGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/tools/repStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/tools/repStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecore/tools/strFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecore/tools/strFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/AttentionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/AttentionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/BlogPublish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/BlogPublish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/CancelFollowingDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/CancelFollowingDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/CollectDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/CollectDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/CommentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/CommentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/CountUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/CountUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/FansDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/FansDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/FollowingDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/FollowingDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/FriendsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/FriendsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/InterestBlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/InterestBlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/InterestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/InterestDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/MyBlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/MyBlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/RegisterDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/RegisterDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/SearchDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/SearchDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/SumData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/SumData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/UploadFaceDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/UploadFaceDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dbutil/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dbutil/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dbutil/DBConn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/dbutil/DBConn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/Collect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/Collect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/File.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/FileList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/FileList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/Friends.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/Friends.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/SendMail$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/SendMail$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/SendMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/SendMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/access_token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/access_token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/baiduAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/baiduAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/baiduAppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/baiduAppInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/baiduCapacity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/baiduCapacity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/baiduofURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/entity/baiduofURL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AddAttentionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AddAttentionServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AddCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AddCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AddCommentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AddCommentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AddFollowingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AddFollowingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AttentionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/AttentionServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/BlogPublishServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/BlogPublishServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/CancelCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/CancelCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/CancelFollowingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/CancelFollowingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/CheckMailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/CheckMailServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/DeleteBlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/DeleteBlogServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/DispatchBlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/DispatchBlogServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/FindpasswordServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/FindpasswordServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/PageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/PageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/RemoveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/RemoveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/SearchCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/SearchCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/SearchFriendServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/SearchFriendServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/SearchHomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/SearchHomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/SearchProfileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/SearchProfileServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowAttentionBlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowAttentionBlogServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowAttentionInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowAttentionInfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowFansServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowFansServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowFollowingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowFollowingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowFriendsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowFriendsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowInterestBlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/ShowInterestBlogServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/UpdateimgServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/UpdateimgServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/UpdatepasswordServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/UpdatepasswordServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/UpdateuserInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/UpdateuserInfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/baiduDownloadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/baiduDownloadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/baiduListServlet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/baiduListServlet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/baiduListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/baiduListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/baiduServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/servlet/baiduServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/CookieFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/CookieFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/DataTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/DataTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/FileUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/FileUpload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/InitIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/InitIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/httpsGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/httpsGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/repStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/repStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/strFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/WEB-INF/classes/com/codecore/tools/strFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/idea/jsp/baiduRequest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/idea/jsp/baiduRequest.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +213,21 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Intstall_software/maven/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\Install_Software\maven\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="F:\application\maven\repository" />
+        <option name="mavenHome" value="D:/installed/maven/apache-maven-3.9.4" />
+        <option name="userSettingsFile" value="D:\installed\maven\apache-maven-3.9.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -76,22 +244,25 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Object/Java/idea&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Object\Java\idea\src\main\webapp" />
@@ -112,8 +283,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="idea" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+    <configuration name="idea" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.79" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="idea:war">
@@ -149,6 +319,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -205,6 +390,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\Vsion\AppData\Roaming\Subversion</configuration>
   </component>
@@ -224,6 +410,9 @@
       <workItem from="1574489751655" duration="1348000" />
       <workItem from="1576493774822" duration="1837000" />
       <workItem from="1576651653581" duration="673000" />
+      <workItem from="1692777291914" duration="1793000" />
+      <workItem from="1692779100268" duration="844000" />
+      <workItem from="1692780198135" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary="0.1.3|上线百度网盘推送服务">
       <created>1570327734567</created>
@@ -299,16 +488,14 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -316,7 +503,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/idea" />
     </ignored-roots>
     <MESSAGE value="0.1.3|上线百度网盘推送服务" />
     <MESSAGE value="1.0.2|百度网盘推送功能上线" />
@@ -324,35 +511,5 @@
     <MESSAGE value="0.0.3|体验优化" />
     <MESSAGE value="0.0.3|体验优化，测试更新" />
     <option name="LAST_COMMIT_MESSAGE" value="0.0.3|体验优化，测试更新" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="572" y="195" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1576652211325">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="572" y="195" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576652211325" />
-    <state x="560" y="102" key="CommitChangelistDialog2" timestamp="1576652344795">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="560" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576652344795" />
-    <state x="766" y="277" key="FileChooserDialogImpl" timestamp="1576652069164">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="766" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576652069164" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1576652073554">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576652073554" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1576652363093">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576652363093" />
-    <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576651653740">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576651653740" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576496002539">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576496002539" />
   </component>
 </project>
