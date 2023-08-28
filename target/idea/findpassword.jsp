@@ -19,7 +19,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <tr>
     <td width="20%" align="center"><span style="width: 178px;height: 62px;font-size: 50px;">idea</span></td>
     <td width="55%" align="left">&nbsp; </td>
-    <td width="55%" align="right"><a href="index.jsp"><h3 style="color: #F0F0F0">返回登入</h3></a></td>
+    <td width="55%" align="right"><a href="index1.jsp"><h3 style="color: #F0F0F0">返回登入</h3></a></td>
     <td width="25%" align="right">&nbsp;</td>
   </tr>
 </table>

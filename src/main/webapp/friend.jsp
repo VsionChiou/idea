@@ -41,7 +41,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           <td>欢迎您，${userInfo.u_nick}！</td>
         </tr>
         <tr>
-          <td><a href="index.jsp">[ 退出 ]</a></td>
+          <td><a href="index1.jsp">[ 退出 ]</a></td>
         </tr>
       </table>
     </td>

@@ -37,7 +37,7 @@
           <td>欢迎您，${userInfo.u_nick}！</td>
         </tr>
         <tr>
-          <td><a href="index.jsp">[ 退出 ]</a></td>
+          <td><a href="index1.jsp">[ 退出 ]</a></td>
         </tr>
       </table>
     </td>
@@ -82,7 +82,7 @@
            uid=Integer.parseInt(request.getSession().getAttribute("userId").toString());
            System.out.println(uid);
        }catch (Exception exception){
-           out.println("<script>alert('请先登录!');window.location.href=\"index.jsp\";</script>");
+           out.println("<script>alert('请先登录!');window.location.href=\"index1.jsp\";</script>");
        }
 //          String getUid = request.getSession().getAttribute("userId").toString();
 	      List<Blog> mybloglist=null;

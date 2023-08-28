@@ -25,8 +25,8 @@ public class RemoveServlet extends HttpServlet {
 		request.setCharacterEncoding("utf-8");
 		request.getSession().invalidate();
 		setCookie(request, response, null);
-//		request.getRequestDispatcher("../index.jsp").forward(request, response);
-		response.sendRedirect("/index.jsp");
+//		request.getRequestDispatcher("../index1.jsp").forward(request, response);
+		response.sendRedirect("/index1.jsp");
 	}
 
 	//����cookie

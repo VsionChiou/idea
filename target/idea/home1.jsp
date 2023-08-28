@@ -415,7 +415,7 @@ function processor(){
      }
     }
 }else{
-    out.println("会话过期，请<a href='/index.jsp'>重新登录</a>");
+    out.println("会话过期，请<a href='/index1.jsp'>重新登录</a>");
 }
      %>  
 </body>

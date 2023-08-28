@@ -1,208 +1,277 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
-<%@ page import="com.codecore.dao.SumData" %>
-<%@ page import="com.codecore.entity.baiduofURL" %>
-<%@ page import="com.codecore.entity.baiduAppInfo" %>
-<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
-<%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%--
+  Created by IntelliJ IDEA.
+  User: Vsion
+  Date: 2023/8/28
+  Time: 23:16
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<base href="<%=basePath%>">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="css/global.css" />
-<link rel="stylesheet" type="text/css" href="css/index.css" />
-<title>idea</title>
-<script type="text/javascript" src="script/global.js"></script>
-<script type="text/javascript" src="script/index.js"></script>
- <script type="text/javascript">
-   
-	function init() {
-	   //LoginServlet
-	   var s=document.forms['faceFrm'];
-	   s.submit();	 
-	   
-	   //alert(s.id);
-	}
-</script>
-</head>
-<body>
-<!--header 开始-->
-<table id="header" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-      <td width="20%" align="center"><span style="width: 178px;height: 62px;font-size: 50px;">idea</span></td>
-    <td align="right">
-        <table border="0" align="right" cellpadding="0" cellspacing="0" id="daohang">
-            <tr>
-                <td align="center"><a href="<%=request.getContextPath()%>/ShowInterestBlogServlet">随便看看</a>&nbsp; |&nbsp; <a href="about.jsp">关于微博</a></td>
-            </tr>
-        </table>
-    </td>
-  </tr>
-</table>
-<!--header 结束-->
-<!--container 开始-->
-<table border="0" align="center" cellpadding="0" cellspacing="0" id="container">
-  <tr>
-    <td width="70%" valign="top">
-    <!-- content开始 -->
-    <table id="content" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td class="phototitle"><img src="icon/huangguan.gif" width="24" height="19" align="absmiddle" /> 他（她）们正在用微博</td>
-     </tr>
-     <tr>
-       <td>
-         <!-- photolist开始 -->
-         <form action="/LoginServlet" name="faceFrm" method="post" id="frm">
-         <table id="photolist" border="0" cellspacing="0" cellpadding="0">
-         	<tr>
-         	<c:forEach var="faces" varStatus="su" items="${applicationScope.face}">
-				<td> <a href="<%=request.getContextPath()%>/ShowInterestBlogServlet?uid=${faces.u_id}" target="_blank">
-				<img src="${faces.u_img}" id="${faces.u_id}" alt=${faces.u_nick} title=${faces.u_nick}
-					 onmouseover="xianshi(this)" onmouseout="huifu(this)" /></a>
-				</td>
-				<c:if test="${su.count%8 == 0 }">
-			</tr>
-			<tr>
-				</c:if>
-				</c:forEach>
-			</tr>
-         
-         </table>
-         </form>
-         <!-- photolist结束 -->
-       </td>
-     </tr>
-     <tr>
-       <td>
-          <!--counter开始-->
-          <table id="counter" border="0" cellpadding="0" cellspacing="0" align="center">
-             <tr>
-               <td valign="middle">
-                 <table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
-                   <tr>
-                     <td class="counternum">
-                         <%
-                             SumData sumData = new SumData();
-                             int sum = sumData.getSum("userinfo");
-                             out.println(sum);
-                         %>
-                     </td>
-                   </tr>
-                 </table>
-               </td>
-             </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <!-- content结束 -->
-    </td>
-    <td>
-    <!-- pageright开始 -->
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td align="center">
-        <!--login开始-->
-        <form id="form1" name="form1" method="post" action="<%=request.getContextPath()%>/LoginServlet" onsubmit="return checkForm()">
-        <table id="login" width="220" border="0" cellspacing="0" cellpadding="0">
-          <tr>
-            <td colspan="2"><a href="register.jsp"><img src="images/regbtn.png" width="200" height="37" border="0" /></a></td>
-          </tr>
-          <tr>
-            <td colspan="2" align="left">邮箱/会员账号/手机号：<br />
-              <input name="userid" type="text" class="logininput" id="userid" onmouseover="this.focus()" />
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2" align="left">输入你的登录密码：<br />
-              <input name="password" type="password" class="logininput" id="password" onmouseover="this.focus()"/>
-            </td>
-          </tr>
-          <tr>
-            <td width="120"><input name="save" type="checkbox" id="save" value="yes"/>下次自动登录</td>
-            <td width="100"><a href="findpassword.jsp" style="text-decoration:none"><font color="#0066CC">找回登录密码</font></a></td>
-          </tr>
-          <tr>
-            <td colspan="2" align="center">
-                <input name="Submit" type="submit" class="loginbtn" id="Submit" value="  登录微博  " />
-            </td>
-          </tr>
-        </table>
-        
-        
-        <%
-  if(request.getParameter("msg")!=null){
-  int res=Integer.parseInt(request.getParameter("msg"));
-  if(res==5){
-  out.print("<script>alert('账号或密码不正确，请重新输入');</script>");
-  }
-  
-  }
-   %>
-        </form>
-        <!--login结束-->
-        </td>
-      </tr>
-	  <tr>
-        <td height="20" valign="bottom"><hr color="#CCCCCC" width="97%" size="1" /></td>
-      </tr>
-      <tr>
-        <td>
-        <!-- messge 开始-->
-          <table id="message" width="100%" border="0" cellspacing="0" cellpadding="0">
-            <tr>              
-              <td class="title">公告</td>
-            </tr>
-            <tr>
-              <td>
-                <ul type="disc">					
-			      <li>微博系统开始测试火爆进行中</li>
-                  <li>有啥新鲜事，跟大家说说</li>	
-                  <li>完善资料寻找志同道合的朋友</li>	
-                  <li>客服热线：022-88888888</li>
-			      <li><a href="#" target="_blank">更多历史公告...</a></li>
-                    <%
-                        baiduofURL url = new baiduofURL();
-                        baiduAppInfo appInfo = new baiduAppInfo();
+    <meta charset="UTF-8">
+    <title>工作简历</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
 
-                    %>
-                  <li><a href="<%= url.getCode(appInfo.getAPI_Key(),appInfo.getUri())%>">百度网盘Beta</a></li>
-			    </ul>
-              </td>
-            </tr>
-            <tr>
-			  <td align="center">
-				<a href="#" target="_blank"></a>
-			  </td>
-			</tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <!-- pageright结束 -->
-    </td>
-  </tr>
-</table>
-<!--container 结束-->
-<!--footer开始-->
-<table id="index_footer" border="0" align="center" cellpadding="5" cellspacing="0">
-  <tr>
- 
-    <td width="534" align="left"><a href="http://help.sina.com.cn/p/i_12.html">帮助</a>&nbsp;&nbsp; <a href="http://weibo.com/signup/signup.php?c=&type=&inviteCode=&code=&spe=&lang=">意见反馈</a>&nbsp;&nbsp; 
-    <a href="http://weibo.com/login.php?url=http%3A%2F%2Fweibo.com%2Fpub%2Fverified">微博认证及合作</a>&nbsp;&nbsp;
-     <a href="http://open.weibo.com/">开放平台</a>&nbsp;&nbsp; <a href="http://hr.t.sina.com.cn/">微博招聘</a>&nbsp;&nbsp;
-      <a href="http://news.sina.com.cn/guide/">微博导航</a></td>        
-    <td width="447" align="right">Copyright: 2011-2020<a href="http://corp.sina.com.cn/chn/copyright.html"> 微博系统 版权所有</a></td>
- <td width="166" align="right">语言：
-      <select name="select" id="select">
-        <option>中文(简体)</option>
-        <option>中文(繁体)</option>
-    </select></td>
-  </tr>        
-</table>
-<!--footer结束-->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+</head>
+<body style="height:auto;background:#f8f8f8;">
+<div class="n_dispage_jm">
+    <div class="n_dispage_jm_in">
+        <div class="head">
+            <div class="head_left">
+                <div class="name">邱茂顺</div>
+                <div class="sex">性别：男</div>
+            </div>
+            <div class="head_middle">
+                <div class="birth">
+                    <p class="fa fa-calendar"> </p><span> 1997.07.19</span>
+                </div>
+                <div class="location">
+                    <p class="fa fa-map-marker"></p><span> 山东省济宁市</span>
+                </div>
+                <div class="phone">
+                    <p class="fa fa-phone"></p><span> 158-6377-7160</span>
+                </div>
+                <div class="mail">
+                    <p class="fa  fa-envelope"></p><span> qmsucc97@163.com</span>
+                </div>
+            </div>
+            <div class="head_right">
+                <img src="./images/Myself.JPEG" alt="">
+            </div>
+        </div>
+        <div>
+            <div class="edu">
+                <div class="title">
+                    <div class="label-part">教育背景</div>
+                    <div class="triangle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="container">
+                    <div class="part">
+                        <div class="name">
+                            <div>✓ &nbsp&nbsp2021.09 - 2024.06</div>
+                            <div>曲阜师范大学</div>
+                            <div>软件工程</div>
+                            <div>硕士</div>
+                        </div>
+                        <div class="course">
+                            <div class="fa  fa-circle"></div>
+                            <p>&nbsp&nbsp&nbsp研究方向：目标检测</p>
+                        </div>
+                    </div>
+
+                    <div class="part">
+                        <div class="name">
+                            <div>✓ &nbsp&nbsp2016.09 - 2020.06</div>
+                            <div>齐鲁工业大学</div>
+                            <div>物联网工程</div>
+                            <div>学士</div>
+                        </div>
+                        <div class="course">
+                            <div class="fa  fa-circle"></div>
+                            <p>&nbsp&nbsp&nbsp主修课程：数据结构、操作系统、计算机组成原理、计算机网络、电路、嵌入式系统、物联网控制技术</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="school">
+                <div class="title">
+                    <div class="label-part">校园经历</div>
+                    <div class="triangle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="container">
+
+                    <ul>
+                        <li>
+                            <div>
+                                <div>✓ &nbsp&nbsp天文社团</div>
+                                <div>宣传部长</div>
+                                <div>2018.09-2020.06</div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div>
+                                <div>✓ &nbsp&nbsp体育（乒乓球）</div>
+                                <div>体育委员</div>
+                                <div>2018.09-2019.09</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div>✓ &nbsp&nbsp乒乓球社团</div>
+                                <div>助理</div>
+                                <div>2018.09-2019.09</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div>✓ &nbsp&nbsp学术科技部</div>
+                                <div>部长</div>
+                                <div>2017.09-2018.09</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project">
+                <div class="title">
+                    <div class="label-part">项目实践</div>
+                    <div class="triangle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="container">
+                    <div class="part">
+                        <div class="name">
+                            <div>✓ &nbsp&nbsp无人售货柜</div>
+                            <div>团队项目</div>
+                            <div>2022.11-至今</div>
+                        </div>
+                        <div class="content">
+                            <div class="bref">
+                                <p><span>项目介绍：</span>拉取货柜摄像头视频流，转推给检测服务器，检测服务器实时识别商品以及数量生成订单，
+                                    转交由购物系统处理扣费。</p>
+                            </div>
+                            <div class="method">
+                                <p>实现方法{相关技术}(难点举例)：</p>
+                                <ul>
+                                    <li>摄像头SDK取流以及I\O控制{C++}(通过Linux驱动ioctl、gpio、watchdog等控制柜门锁的开关；网络摄像头SDK调试与重写)</li>
+                                    <li>视频推拉流和编解码{FFmpeg}(编解码器的实现；推流速率控制)</li>
+                                    <li>流媒体服务器{ZLMediaKit}</li>
+                                    <li>后端流程控制{Django}(设备端与服务端推拉流同步)</li>
+                                    <li>目标检测算法{pytorch}(网络结构调优)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part">
+                        <div class="name">
+                            <div>✓ &nbsp&nbsp无人配送小车</div>
+                            <div>个人项目</div>
+                            <div>2019.12-2020.03</div>
+                        </div>
+                        <div class="content">
+                            <div class="bref">
+                                <p><span>项目介绍：</span>
+                                    使用STM32控制电机驱动；结合TOF、超声波传感器和摄像头实现小车的环境感知；设计算法使得小车具备自动路线规划、
+                                    自动避障和回溯路线的能力；WiFi模块结合MQTT实现网络通信；客户端实时传输达到软硬件协同的功能。
+                                </p>
+                            </div>
+                            <div class="method">
+                                <p>实现方法{相关技术}(难点举例)：</p>
+                                <ul>
+                                    <li>STM32驱动开发{C++}(HAL库的使用；UART不定长数据的收发；PID调参；多传感器数据融合；MQTT协议实现)</li>
+                                    <li>WEB客户端{前端：HTML+CSS+JS；后端：Django}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part">
+                        <div class="name">
+                            <div>✓ &nbsp&nbsp图床</div>
+                            <div>团队项目</div>
+                            <div>2019.12-2019.12</div>
+                        </div>
+                        <div class="content">
+                            <div class="bref">
+                                <p><span>项目介绍：</span>
+                                    使用Django框架编写的用于显示用户上传图片的网站，实现功能：用户注册、登录，权限设置。
+                                </p>
+                            </div>
+                            <div class="method">
+                                <p>实现方法{相关技术}(难点举例)：</p>
+                                <ul>
+                                    <li>前端设计编写{HTML+CSS+JS}</li>
+                                    <li>后端逻辑实现{Python,Django}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part">
+                        <div class="name">
+                            <div>✓ &nbsp&nbsp温湿度检测报警系统</div>
+                            <div>团队项目</div>
+                            <div>2019.06-2019.06</div>
+                        </div>
+                        <div class="content">
+                            <div class="bref">
+                                <p><span>项目介绍：</span>
+                                    STM32做控制器，通过DHT22采集数据通过WiFi上传到服务器，前端或小程序从服务器实时获取数据，一旦达到警戒阈值则报警。
+                                </p>
+                            </div>
+                            <div class="method">
+                                <p>实现方法{相关技术}(难点举例)：</p>
+                                <ul>
+                                    <li>服务器搭建{TCP通信；数据库CRUD}(并发数据处理)</li>
+                                    <li>前后端逻辑实现{Java；HTML+CSS+JS}</li>
+                                    <li>微信小程序</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part">
+                        <div class="name">
+                            <div>✓ &nbsp&nbsp超市收银系统</div>
+                            <div>团队项目</div>
+                            <div>2018.06-2018.06</div>
+                        </div>
+                        <div class="content">
+                            <div class="bref">
+                                <p><span>项目介绍：</span>实现如商品入库管理、收银结算、员工登录、权限设置等功能的可视化收银系统。</p>
+                            </div>
+                            <div class="method">
+                                <p>实现方法{相关技术}(难点举例)：</p>
+                                <ul>
+                                    <li>数据库关系模型的设计与建立{mysql}</li>
+                                    <li>GUI界面{Java Swing}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="title">
+                    <div class="label-part">个人技能</div>
+                    <div class="triangle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="container">
+                    <p>技能证书：（1）普通话二级乙等；（2）大学英语四级（CET-4）；（3）中级软件设计师（软考）；</p>
+                    <p>擅长编程语言：Python、C/C++、Java；</p>
+                    <p>熟练Arm平台嵌入式开发，熟悉Linux编程及软件编译，熟悉STL和QT框架。</p>
+                    <p>熟练使用Django等框架，熟悉Linux操作系统及Docker使用。</p>
+                </div>
+            </div>
+            <div class="self">
+                <div class="title">
+                    <div class="label-part">自我评价</div>
+                    <div class="triangle"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="container">
+                    <p>本人自小对计算机有浓厚的兴趣，小时自学装系统，折腾黑苹果，勇于探索实践，喜欢求根问底，不甘失败。</p>
+                    <p>大学四年随性而不堕落，专业排名TOP50%，一直在为提升自身而不懈努力。喜欢探求原理，了解技术的具体实现。自学C++等编程语言。
+                        研究生期间主要在嵌入式目标检测方向不端探索，曾经尝试将神经网络模型移植到Arm嵌入式开发板、Android手机。</p>
+                    <p>本人性格内敛但喜欢通过交流解决问题。通过大学英语四级，精通软件与嵌入式开发。课余时间读书、思考、折腾计算机。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
 </body>
 </html>

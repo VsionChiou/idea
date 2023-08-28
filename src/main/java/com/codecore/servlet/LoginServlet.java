@@ -70,7 +70,7 @@ public class LoginServlet extends HttpServlet {
      	    session.setAttribute("userId", userInfo.getU_id());
      	    response.sendRedirect("/home.jsp");
 		}else
-			response.sendRedirect("/index.jsp?msg=5");
+			response.sendRedirect("/index1.jsp?msg=5");
 	}
 	
 	public void setCookie(HttpServletRequest request, HttpServletResponse response, UserInfo userInfo)

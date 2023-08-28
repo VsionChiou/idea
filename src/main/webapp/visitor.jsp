@@ -43,7 +43,7 @@ function noLogin(){
           <td>欢迎您，！</td>
         </tr>
         <tr>
-          <td><a href="index.jsp">[ 退出 ]</a></td>
+          <td><a href="index1.jsp">[ 退出 ]</a></td>
         </tr>
       </table>
     </td>
